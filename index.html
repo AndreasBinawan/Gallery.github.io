@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery Photo</title>
+
+    <!-- Link CSS -->
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+<h1>Gallery</h1>
+
+<div class="container">
+    <ul class="gallery">
+        <li>
+            <a href="#photo-1">
+                <img src="Asset/Thumbnail/Thumbnail 1.jpg" alt="Photo 1">
+                <span>Photo 1</span>
+            </a>
+
+            <div class="overlay" id="photo-1">
+                <a href="#" class="close">X</a>
+                <a href="#photo-4" class="prev">Previous</a>
+                <img src="Asset/Fullsize/Fullsize 1.jpg" alt="Photo 1">
+                <a href="#photo-2" class="next">Next</a>
+
+            </div>
+
+        </li>
+
+        <li>
+            <a href="#photo-2">
+                <img src="Asset/Thumbnail/Thumbnail 2.jpg" alt="Photo 2">
+                <span>Photo 2</span>
+            </a>
+
+            <div class="overlay" id="photo-2">
+                <a href="#" class="close">X</a>
+                <a href="#photo-1" class="prev">Previous</a>
+                <img src="Asset/Fullsize/Fullsize 2.jpg" alt="Photo 2">
+                <a href="#photo-3" class="next">Next</a>
+            </div>
+
+        </li>
+
+
+
+        <li>
+            <a href="#photo-3">
+                <img src="Asset/Thumbnail/Thumbnail 3.jpg" alt="Photo 3">
+                <span>Photo 3</span>
+            </a>
+
+            <div class="overlay" id="photo-3">
+                <a href="#photo-2" class="prev">Previous</a>
+                <a href="#" class="close">X</a>
+                <img src="Asset/Fullsize/Fullsize 3.jpg" alt="Photo 3">
+                <a href="#photo-4" class="next">Next</a>
+            </div>
+        </li>
+
+        <li>
+            <a href="#photo-4">
+                <img src="Asset/Thumbnail/Thumbnail 4.jpg" alt="Photo 4">
+                <span>Photo 4</span>
+            </a>
+
+            <div class="overlay" id="photo-4">
+                <a href="#photo-3" class="prev">Previous</a>
+                <a href="#" class="close">X</a>
+                <img src="Asset/Fullsize/Fullsize 4.jpg" alt="Photo 4">
+                <a href="#photo-1" class="next"></a>
+            </div>
+
+        </li>
+
+
+
+        <div class="clear">
+
+        </div>
+
+    </ul>
+</div>
+
+<body>
+
+</body>
+
+</html>
